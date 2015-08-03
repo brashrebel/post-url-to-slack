@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Post URL to Slack",
+  "description": "This extension will post this URL to Slack",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
